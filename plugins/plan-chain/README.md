@@ -47,6 +47,7 @@ Codex:
 
 ```
 codex plugin marketplace add StageContinuity/continued-plugins
+codex plugin add plan-chain@continued-plugins
 ```
 
 ## Privacy and safety

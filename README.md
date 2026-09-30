@@ -19,6 +19,7 @@ Codex:
 
 ```
 codex plugin marketplace add StageContinuity/continued-plugins
+codex plugin add plan-chain@continued-plugins
 ```
 
 Each plugin works on its own, in any repository. [Continued](https://stagecontinuity.com) is a Mac app that runs Claude Code and Codex side by side, records which agent made each file, and hands work between sessions with the right plan.
