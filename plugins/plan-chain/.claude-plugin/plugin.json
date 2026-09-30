@@ -3,12 +3,19 @@
   "version": "0.1.0",
   "description": "Keep plan files in a chain and pick up the current plan instead of guessing. Say \"continue\" and the agent starts from the plan that superseded the others.",
   "author": {
-    "name": "Continued",
+    "name": "Stage Continuity",
     "email": "hello@stagecontinuity.com",
     "url": "https://stagecontinuity.com"
   },
   "homepage": "https://github.com/StageContinuity/continued-plugins/tree/main/plugins/plan-chain",
   "repository": "https://github.com/StageContinuity/continued-plugins",
   "license": "Apache-2.0",
-  "keywords": ["plans", "handoff", "continue", "planning", "codex", "workflow"]
+  "keywords": [
+    "plans",
+    "handoff",
+    "continue",
+    "planning",
+    "codex",
+    "workflow"
+  ]
 }

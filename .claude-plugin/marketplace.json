@@ -3,14 +3,16 @@
   "name": "continued-plugins",
   "description": "Small, standalone plugins from Continued for Claude Code and Codex.",
   "owner": {
-    "name": "Continued",
+    "name": "Stage Continuity",
     "email": "hello@stagecontinuity.com"
   },
   "plugins": [
     {
       "name": "plan-chain",
       "description": "Keep plan files in a chain and pick up the current plan instead of guessing. Say \"continue\" and the agent starts from the plan that superseded the others.",
-      "author": { "name": "Continued" },
+      "author": {
+        "name": "Stage Continuity"
+      },
       "category": "productivity",
       "source": "./plugins/plan-chain",
       "homepage": "https://github.com/StageContinuity/continued-plugins/tree/main/plugins/plan-chain"

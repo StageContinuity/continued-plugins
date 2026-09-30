@@ -4,23 +4,33 @@
   "version": "0.1.0",
   "description": "Keep plan files in a chain and pick up the current plan instead of guessing. Say \"continue\" and the agent starts from the plan that superseded the others.",
   "author": {
-    "name": "Continued",
+    "name": "Stage Continuity",
     "email": "hello@stagecontinuity.com",
     "url": "https://stagecontinuity.com"
   },
   "homepage": "https://github.com/StageContinuity/continued-plugins/tree/main/plugins/plan-chain",
   "repository": "https://github.com/StageContinuity/continued-plugins",
   "license": "Apache-2.0",
-  "keywords": ["plans", "handoff", "continue", "planning", "codex", "claude-code"],
+  "keywords": [
+    "plans",
+    "handoff",
+    "continue",
+    "planning",
+    "codex",
+    "claude-code"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
         "displayName": "Plan chain",
         "shortDescription": "Say \"continue\" and start from the current plan, not an outdated one.",
         "longDescription": "Adds a small front-matter block to plan files (status, supersedes, author, updated) and follows the supersedes links to find the one current plan. When several plans could be current, it lists them and asks instead of guessing. Standard-library Python, no network access. Works in Codex and Claude Code.",
-        "developerName": "Continued",
+        "developerName": "Stage Continuity",
         "category": "Productivity",
-        "capabilities": ["Read", "Write"],
+        "capabilities": [
+          "Read",
+          "Write"
+        ],
         "websiteURL": "https://stagecontinuity.com",
         "privacyPolicyURL": "https://stagecontinuity.com/privacy",
         "termsOfServiceURL": "https://stagecontinuity.com/terms",
@@ -29,7 +39,9 @@
           "Continue the plan.",
           "Write a new plan that replaces the old pagination plan."
         ],
-        "brandColor": "#5E8C7B"
+        "brandColor": "#5E8C7B",
+        "logo": "./assets/icon.png",
+        "composerIcon": "./assets/icon.png"
       }
     }
   }
