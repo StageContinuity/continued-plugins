@@ -1,0 +1,16 @@
+{
+  "name": "plan-chain",
+  "version": "0.1.0",
+  "description": "Keep plan files in a chain and pick up the current plan instead of guessing.",
+  "author": { "name": "Continued" },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Plan chain",
+    "shortDescription": "Say \"continue\" and start from the current plan, not an outdated one.",
+    "longDescription": "Adds a small front-matter block to plan files (status, supersedes, author, updated) and follows the supersedes links to find the one current plan. When several plans could be current, it lists them and asks instead of guessing. Standard-library Python, no network access.",
+    "developerName": "Continued",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Which plan is current in this repo?"
+  }
+}
